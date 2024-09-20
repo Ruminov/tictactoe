@@ -6,6 +6,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="game-container">
+      <div class="info-container">
+        <div class="game-info">
+          <div class="player-1">Player1: 0</div>
+          <div class="round">Round: 1</div>
+          <div class="player-2">Player2: 0</div>
+        </div>
+        <div class="message">The first player to win 3 rounds wins</div>
+      </div>
+      <div class="cell-container">
+        <div class="cell" data-index="0" data-symbol></div>
+        <div class="cell" data-index="1" data-symbol></div>
+        <div class="cell" data-index="2" data-symbol></div>
+        <div class="cell" data-index="3" data-symbol></div>
+        <div class="cell" data-index="4" data-symbol></div>
+        <div class="cell" data-index="5" data-symbol></div>
+        <div class="cell" data-index="6" data-symbol></div>
+        <div class="cell" data-index="7" data-symbol></div>
+        <div class="cell" data-index="8" data-symbol></div>
+      </div>
+      <button class="restart-round">Restart</button>
+    </div>
+  </body>
 </html>
